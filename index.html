@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu" id="pagina-principal">
+            <h1 style="text-align: center; font-size: 50px; color:aquamarine;">Clínica PetLovers</h1>
+            <hr>
+            <img src="./img/caes.jpg" style="width: 500px; margin: auto 195px;">
+            <ul>
+                
+                <li><a href="#quem-somos">Quem somos?</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#atendimento">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h2 id="quem-somos"></a>Quem somos?</h2>
+                <!-- Aqui vai o seu header -->
+                <p>São 2 mil metros quadrados de área para proporcionar tudo que você busca para seu amiguinho em um só
+                    lugar:</p>
+                <p>Equipe médica conta com 17 veterinários dedicados e competentes.</p>
+                <p>Localizada:</p>
+                <iframe style="width: 300px; margin: auto 195px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.90267395656!2d-49.3488954849857!3d-25.441517183783112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce218d3ec2b19%3A0x4d693e64a5688286!2sTerminal%20Campo%20Comprido%20(304%20-%20Sentido%20Cic%20Norte)!5e0!3m2!1spt-BR!2sbr!4v1672238280753!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2 id="servicos">Serviços:</h2>
+                <ul>
+                    <li align="center">Diagnóstico de Imagem (Ecografia 4D e Radiologia Digital).</li>
+                    <li>Salas específicas para atendimentos (Odontologia, Gatil, Sala de Visitas, Brinquedoteca para
+                        crianças e muito mais).</li>
+                    <li>Laboratório Clínico.</li>
+                    <li>Loja com acessórios e rações.</li>
+                </ul>
+                <p><strong>Afinal, nosso cliente merece um atendimento especial numa clínica inovadora!</strong> </p>
+
+            </div>
+
+            <div class="content">
+                Content
+                <!-- Aqui vai o seu conteúdo -->
+                <h3 id="atendimento">Horário de Atendimento</h3>
+
+
+                <table border="3" align="center">
+                    <tr>
+                        <td>Manhã</td>
+                        <td>08:00 as 12:00</td>
+
+                    </tr>
+                    <tr>
+                        <td>Tarde</td>
+                        <td>13:00 ás 18:00</td>
+                    </tr>
+                    <tr>
+                        <td> Noite</td>
+                        <td>Plantão 24h</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <h2>Valores:</h2>
+            <table border="3" align="center">
+                <tr>
+                    <td>Consulta</td>
+                    <td>R$120,00</td>
+
+                </tr>
+                <tr>
+                    <td>Exames</td>
+                    <td>Apartir de R$150,00</td>
+                </tr>
+                <tr>
+                    <td> Emergência</td>
+                    <td>Apartir de R$190,00</td>
+                </tr>
+            </table>
+
+        </div>
+        <br>
+        <br>
+        <form action="/formulario-contato" method="post">
+            <div>
+                <p id="contato">Contato</p>
+
+                <label for="nome">Nome:</label>
+                <input type="texto" id="nome" name="nome_usuario">
+
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email_usuario">
+
+            </div>
+            <br>
+            <div>
+                <label for="texto">Texto:</label>
+                <textarea id="texto" name="texto_usuario"></textarea>
+            </div>
+        </form>
+        <button>Enviar</button>
+
+        <div class="footer">
+            <hr>
+            <!-- Aqui vai o seu rodapé -->
+            <p style="font-size: 20px;"><strong>Melhores veterinários. Melhor atendimento</strong></p>
+            <p>Só aqui você encontra uma equipe especializada para atender ao seu animal.</p>
+
+            <small><a href="#pagina-principal">Voltar</a></small></button>
+
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
